@@ -1,0 +1,26 @@
+.aboutme {
+    background-color: #09122C;
+    color: white;
+    padding: 100px ;
+}
+@media (max-width: 480px) {
+    .aboutme {
+    background-color: #09122C;
+    height: 750px;
+    color: white;
+    padding: 30px;
+    font-size: 15px;
+}
+}
+
+.name {
+    color: yellow;
+    text-align: center;
+    padding-bottom: 50px;
+}
+@media (max-width: 480px) {
+    .name {
+    padding-bottom: 20px;
+    
+}
+}
