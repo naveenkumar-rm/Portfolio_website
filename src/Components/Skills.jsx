@@ -1,13 +1,5 @@
 import React from 'react'
 import './Skills.css'
-import html from "../Assets/New folder/HTML5.png"
-import css from "../Assets/New folder/CSS3.png"
-import java from "../Assets/New folder/Java.png"
-import bootstrap from "../Assets/New folder/Bootstrap.png"
-import javascript from "../Assets/New folder/JavaScript.png"
-import springboot from "../Assets/New folder/Spring.png"
-import react from "../Assets/New folder/react.png"
-import mysql from "../Assets/New folder/MySQL.png"
 
 
 
@@ -16,22 +8,43 @@ import mysql from "../Assets/New folder/MySQL.png"
 const Skills = () => {
   return (
     <div id='Skills' className='page2'>
-      <div>
-        <h2 className='title2 name'>SKILLS</h2>
-      </div><br />
-      <div>
-        <div className='skills' >
-          <div><img className='slogo' src={html} alt="html" /><div className='sname1'>HTML5</div></div>
-          <div><img className='slogo' src={css} alt="css" /><div className='sname2'>CSS</div></div>
-          <div><img className='slogo' src={bootstrap} alt="bootstrap" /><div className='sname3'>BOOTSTRAP</div></div>
-          <div><img className='slogo' src={react} alt="react" /><div className='sname4'>REACT JS</div></div>
-          <div><img className='slogo' src={java} alt="java" /><div className='sname2'>JAVA</div></div>
-          <div><img className='slogo' src={springboot} alt="springboot" /><div className='sname3'>SPRINGBOOT</div></div>
-          <div><img className='slogo' src={javascript} alt="javascript" /><div className='sname3'>JAVASCRIPT</div></div>
-          <div><img className='slogo' src={mysql} alt="mysql" /><div className='sname2'>MYSQL</div></div>
+      <h1 className='title'>SKILLS</h1>
+      <div className='skills' >
+        <div className='Skills_box'>
+          <h2>Software Developer</h2>
+          <p>I enjoy writing clean code and creating useful products.</p>
+          <h3>Languages & Databases</h3>
+          <ul>
+            <li>Java</li>
+            <li>Javascript</li>
+            <li>MySQL</li>
+          </ul>
+          <h2>Tools& Platforms</h2>
+          <ul>
+            <li>Eclipse</li>
+            <li>IntelliJ</li>
+              <li>AWS</li>
+          </ul>
+        </div>
+        <div className='Skills_box'>
+          <h2>Frontend Developer</h2>
+          <p>It's fun for me to bring new concepts to life. I consider myself fortunate to be a Fullstack developer because my work has a direct impact on the user's life.</p>
+          <h2>Skills</h2>
+          <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+          <h2>Tools</h2>
+          <ul>
+            <li>VScode</li>
+            <li>Github</li>
+          </ul>
         </div>
       </div>
     </div>
+
   )
 }
 

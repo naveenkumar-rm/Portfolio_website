@@ -1,26 +1,11 @@
-.aboutme {
-    background-color: #09122C;
+.about {
+    background-color: black;
     color: white;
-    padding: 100px ;
+    height: 100vh;
+    padding: 100px;
 }
-@media (max-width: 480px) {
-    .aboutme {
-    background-color: #09122C;
-    height: 750px;
-    color: white;
-    padding: 30px;
-    font-size: 15px;
-}
-}
-
-.name {
-    color: yellow;
+.Skills_heading{
     text-align: center;
-    padding-bottom: 50px;
-}
-@media (max-width: 480px) {
-    .name {
-    padding-bottom: 20px;
-    
-}
+    color: goldenrod;
+    margin-bottom: 30px;
 }
