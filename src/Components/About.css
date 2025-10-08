@@ -2,10 +2,16 @@
     background-color: black;
     color: white;
     height: 100vh;
-    padding: 100px;
+    padding: 50px;
 }
-.Skills_heading{
+.about h1 {
     text-align: center;
-    color: goldenrod;
-    margin-bottom: 30px;
+    font-size: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.about_description {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 auto;
 }

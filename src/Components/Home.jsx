@@ -1,14 +1,11 @@
 import React from 'react'
 import "./Home.css";
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-
+import { MdOutlineDownloading } from "react-icons/md";
 
 const Home = () => {
     return (
@@ -24,8 +21,7 @@ const Home = () => {
                                     <Nav.Link href="#Home" className='text-white nav_link'>Home</Nav.Link>
                                     <Nav.Link href="#About" className='text-white nav_link'>About</Nav.Link>
                                     <Nav.Link href="#Skills" className='text-white nav_link'>Skills</Nav.Link>
-                                    <Nav.Link href="#Contact" className='text-white nav_link'>Experience</Nav.Link>
-                                    <Nav.Link href="#action2" className='text-white nav_link'>Projects</Nav.Link>
+                                    <Nav.Link href="#project" className='text-white nav_link'>Projects</Nav.Link>
                                     <Nav.Link href="#Contact" className='text-white nav_link'>Contact</Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
@@ -33,12 +29,16 @@ const Home = () => {
                     </Navbar>
                 </div>
                 <div className='Home_SM'>
-                    <a href='https://www.linkedin.com/in/naveenkumar-rm/'><FaLinkedinIn color='white'/></a>
-                    <a href='https://github.com/naveenkumar-rm'><FaGithub color='white'/></a>
+                    <a target="_blank" href='https://www.linkedin.com/in/naveenkumar-rm/'><FaLinkedinIn className='SM_logo' /></a>
+                    <a target="_blank" href='https://github.com/naveenkumar-rm'><FaGithub className='SM_logo' /></a>
                 </div>
-                <p className='Home_heading'>Hi, i am Naveenkumar</p>
-                <a className='Home_button' href=''>Download Resume</a>
-                <a className='Home_button' href='#Contact'>Connect with me</a>
+                <p className='Home_subheading'>Hi, I’m </p>
+                <p className='Home_heading'>NAVEENKUMAR M</p>
+                <p className='Home_subheading'>A Full Stack Developer</p>
+                <p className='Home_description'>From concept to code — making ideas real.</p>
+                <div className='Home_button'>
+                    <a href='https://github.com/naveenkumar-rm' className='resume'>Resume <MdOutlineDownloading className='SM_logo2' /></a>
+                </div>
             </div>
         </div>
     )

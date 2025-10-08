@@ -1,0 +1,14 @@
+.Project{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    border: none !important;
+}
+.Project h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 60px; 
+    padding-bottom: 30px;
+    font-size: 50px;
+}

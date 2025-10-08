@@ -1,67 +1,113 @@
 /* Navbar */
-.Home{
-    background-color: black;
-    height: 100vh;
-    color: white;
-    padding-top: 250px;
-    text-align: center;
-}
-
-.Nav_bar{
-    background-color: #101011e5;
-    color: white!important;
+.Nav_bar {
+    background-color: rgba(0, 0, 0, 0.749);
+    color: white !important;
     border-radius: 40px;
-    width: 450px;
+    width: 380px;
     height: 50px;
     border: 1px solid rgb(66, 64, 64);
     margin-top: 20px !important;
     margin: auto;
 }
 
-@media (max-width: 768px) {
-    .Nav_bar {
-        margin-left: 0;
-        width: 100%;
-        border-radius: none!;
-        box-shadow: none;
-        border: none;
-    }
+.nav_link:hover {
+    background-color: white;
+    color: black !important;
+    border-radius: 50%;
 }
-
 
 /* Homepage */
-
-.Home_heading{
-    font-size: 50px;
-    text-align: center;
-    font-weight: bolder;
-}
-.Home_button{
-    font-size: 16px;
-    padding: 15px;
+.Home {
+    background-color: black;
+    height: 700px;
     color: white;
-    background-color: #101011;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.Home_heading {
+    font-size: 75px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+.Home_subheading {
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.Home_description {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+
+/* Social Media */
+.Home_SM {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 1300px;
+    gap: 20px;
     border: 1px solid rgb(66, 64, 64);
     border-radius: 50px;
+}
+
+
+.SM_logo {
+    width: 30px;
+    height: 30px;
+    color: white !important;
     text-decoration: none;
 }
 
-:hover.nav_link{
+.SM_logo2 {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+}
+
+/* Resume Button */
+.resume {
+    font-size: 20px;
+    color: white !important;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.resume:hover {
     background-color: white;
     color: black !important;
-    border-radius: 20%;
+    transform: scale(1.05);
 }
-.Home_SM{
-    width: 50px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: sticky;
-    left: 1400px;
-    gap: 20px;
-    color: white !important;
-    background-color: #101011;
-    border: 1px solid rgb(66, 64, 64);
-    border-radius: 50px;
+
+/* ==============================
+   Media Queries
+============================== */
+@media (max-width: 1400px) {
+    .Home_SM {
+        left: auto;
+        right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Home_SM {
+        top: auto;
+        bottom: 20px;
+        right: 50%;
+        transform: translateX(50%);
+    }
 }
