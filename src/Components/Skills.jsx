@@ -11,34 +11,37 @@ import git from '../Assets/Git.png'
 import AWS from '../Assets/AWS.png'
 import Postman from '../Assets/Postman.png'
 import "./Skills.css";
+
 const Skills = () => {
   return (
     <div className='Skills_page' id='Skills'>
       <h2>SKILLS</h2>
-
-      <div className='skills' >
+      <div className='skills'>
         <div className='skills_box'>
-        <div className='Skills_Icons' _>
-          <div><img className='slogo' src={html} alt="html" /><div className='sname'>HTML5</div></div>
-          <div><img className='slogo' src={css} alt="css" /><div className='sname'>CSS</div></div>
-          <div><img className='slogo' src={bootstrap} alt="bootstrap" /><div className='sname'>BOOTSTRAP</div></div>
-          <div><img className='slogo' src={react} alt="react" /><div className='sname'>REACT JS</div></div>
-        </div>
-        <div className='Skills_Icons'>
-          <div><img className='slogo' src={java} alt="java" /><div className='sname'>JAVA</div></div>
-          <div><img className='slogo' src={springboot} alt="springboot" /><div className='sname'>SPRINGBOOT</div></div>
-          <div><img className='slogo' src={javascript} alt="javascript" /><div className='sname'>JAVASCRIPT</div></div>
-          <div><img className='slogo' src={mysql} alt="mysql" /><div className='sname'>MYSQL</div></div>
-        </div>
-        <div className='Skills_Icons'>
-          <div><img className='slogo' src={git} alt="git" /><div className='sname'>GIT</div></div>
-          <div><img className='slogo' src={AWS} alt="AWS" /><div className='sname'>AWS</div></div>
-          <div><img className='slogo' src={Postman} alt="Postman" /><div className='sname'>Postman</div></div>
-        </div>
+
+          <div className='Skills_Icons'>
+            <div><img className='slogo' src={html} alt="HTML5" /><div className='sname'>HTML5</div></div>
+            <div><img className='slogo' src={css} alt="CSS3" /><div className='sname'>CSS3</div></div>
+            <div><img className='slogo' src={bootstrap} alt="Bootstrap" /><div className='sname'>BOOTSTRAP</div></div>
+            <div><img className='slogo' src={react} alt="React JS" /><div className='sname'>REACT JS</div></div>
+          </div>
+
+          <div className='Skills_Icons'>
+            <div><img className='slogo' src={java} alt="Java" /><div className='sname'>JAVA</div></div>
+            <div><img className='slogo' src={springboot} alt="Spring Boot" /><div className='sname'>SPRINGBOOT</div></div>
+            <div><img className='slogo' src={javascript} alt="JavaScript" /><div className='sname'>JAVASCRIPT</div></div>
+            <div><img className='slogo' src={mysql} alt="MySQL" /><div className='sname'>MYSQL</div></div>
+          </div>
+
+          <div className='Skills_Icons'>
+            <div><img className='slogo' src={git} alt="Git" /><div className='sname'>GIT</div></div>
+            <div><img className='slogo' src={AWS} alt="AWS" /><div className='sname'>AWS</div></div>
+            <div><img className='slogo' src={Postman} alt="Postman" /><div className='sname'>POSTMAN</div></div>
+          </div>
+
         </div>
       </div>
     </div>
-
   )
 }
 
