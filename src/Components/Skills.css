@@ -23,15 +23,26 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
-.skills {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
-  justify-items: center;
-  align-items: center;
+.skills_title {
+  display:contents;
 }
 
+.skills_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.Skills_Icons{
+    border: white 1px solid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 450px;
+    width: 450px;
+    align-items: center;
+}
 .slogo {
   width: 80px;
   height: 80px;
