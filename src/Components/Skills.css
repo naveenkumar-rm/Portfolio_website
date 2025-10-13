@@ -33,6 +33,7 @@
 }
 .Skills_Icons{
     border: white 1px solid;
+    border-radius: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 500px;
