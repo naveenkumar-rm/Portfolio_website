@@ -1,16 +1,22 @@
 import React from 'react'
 import "./About.css";
+import anime from '../Assets/Gemini_Generated_Image_bicrjfbicrjfbicr-Photoroom.png'
 const About = () => {
   return (
     <div id='About' className='about'>
       <h1 className='Skills_heading'>About me</h1>
-      <div className='about_description'>
-      <p>Hello! I’m Naveen Kumar, a passionate and detail-oriented web developer from Coimbatore, Tamil Nadu.</p>
-      <p>Currently, I’m interning at GT Software, where I’m enhancing my expertise in Full stack development by working on real-world projects and honing my skills in creating responsive, efficient, and visually appealing websites.</p>
-      <p>Outside of coding, I’m constantly exploring new tools, frameworks, and design trends to stay ahead in this ever-evolving tech landscape.</p>
+      <div className='about_content'>
+        <div className='about_description'>
+          <p>Hello there, I’m Naveen Kumar, and I'm a Software Developer. I adore designing user-friendly websites that are both simple and elegant yet scalable. I consider myself to be a lifelong learner.</p>
+          <p>I began my professional journey at Cognizant, where I gained valuable experience collaborating within teams, tackling real-world challenges, and quickly adapting to new situations. It was during this time that I discovered my passion for technology, which motivated me to delve deeper into full-stack development with Java.</p>
+          <p>When I’m not coding, I enjoy exploring new tech, experimenting with ideas, and learning new skills.</p>
+        </div>
+        <div className='anime'>
+          <img src={anime} alt="anime" ></img>
+        </div>
+      </div>
     </div>
-    </div>
-      )
+  )
 }
 
-      export default About
+export default About

@@ -12,43 +12,42 @@
   letter-spacing: 3px;
 }
 
-.skill-category {
-  margin-bottom: 48px;
-}
-
-.skill-category h3 {
-  font-size: 29px;
-  margin-bottom: 24px;
-  color: #00bcd4;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
 .skills_box {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
   align-items: center;
 }
-.Skills_Icons{
-    border: white 1px solid;
-    border-radius: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 500px;
-    width: 450px;
-    align-items: center;
-}
-.slogo {
-    height: 100px;
-    width: 100px;
+
+.Skills_Icons {
+  border: 1px solid white;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 500px;
+  width: 450px;
+  align-items: center;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .Skills_Icons:hover {
   background-color: white;
   color: black;
-  transform: scale(1.10);
-  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1);
 }
 
+.slogo {
+  height: 100px;
+  width: 100px;
+}
+
+.sname {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.box_title{
+  font-size: 50px;
+  margin-bottom: 20px;
+  grid-column: span 2;
+}
