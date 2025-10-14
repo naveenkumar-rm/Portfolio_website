@@ -20,7 +20,7 @@ const Skills = () => {
 
         {/* Frontend Skills */}
         <div className='skill_category'>
-          <h3 className='box_title'>Frontend</h3>
+          <h6 className='box_title'>Frontend</h6>
           <div className='Skills_Icons'>
             <div><img className='slogo' src={html} alt="HTML5" /><div className='sname'>HTML5</div></div>
             <div><img className='slogo' src={css} alt="CSS3" /><div className='sname'>CSS3</div></div>

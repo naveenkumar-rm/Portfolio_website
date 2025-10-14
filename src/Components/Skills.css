@@ -15,7 +15,7 @@
 .skills_box {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -25,16 +25,17 @@
   border-radius: 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 500px;
+  height: 450px;
   width: 450px;
   align-items: center;
   transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .Skills_Icons:hover {
-  background-color: white;
-  color: black;
-  transform: scale(1.1);
+    box-shadow: 0 10px 40px rgba(242, 240, 240, 0.729);
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.02);
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .slogo {
@@ -47,7 +48,6 @@
   font-weight: bold;
 }
 .box_title{
-  font-size: 50px;
+  font-size: 35px;
   margin-bottom: 20px;
-  grid-column: span 2;
 }

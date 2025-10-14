@@ -10,12 +10,6 @@
     margin: auto;
 }
 
-.nav_link:hover {
-    background-color: white;
-    color: black !important;
-    border-radius: 50%;
-}
-
 /* Homepage */
 .Home {
     background-color: black;

@@ -4,7 +4,7 @@ import anime from '../Assets/Gemini_Generated_Image_bicrjfbicrjfbicr-Photoroom.p
 const About = () => {
   return (
     <div id='About' className='about'>
-      <h1 className='Skills_heading'>About me</h1>
+      <h1>About me</h1>
       <div className='about_content'>
         <div className='about_description'>
           <p>Hello there, I’m Naveen Kumar, and I'm a Software Developer. I adore designing user-friendly websites that are both simple and elegant yet scalable. I consider myself to be a lifelong learner.</p>
