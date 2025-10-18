@@ -86,22 +86,3 @@
     color: black !important;
     transform: scale(1.05);
 }
-
-/* ==============================
-   Media Queries
-============================== */
-@media (max-width: 1400px) {
-    .Home_SM {
-        left: auto;
-        right: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .Home_SM {
-        top: auto;
-        bottom: 20px;
-        right: 50%;
-        transform: translateX(50%);
-    }
-}
