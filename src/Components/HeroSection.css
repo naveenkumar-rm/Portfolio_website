@@ -1,0 +1,49 @@
+/* Hero section styles (replaces Tailwind utilities) */
+.hero {
+	position: relative;
+	background: linear-gradient(135deg,#071426 0%, #06203f 40%, #2b3a7a 100%);
+	color: #ffffff;
+	padding: 6rem 0 5rem;
+	box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+	overflow: hidden;
+    height: 100vh;
+}
+
+.hero-container {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 0 1rem;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+}
+
+.hero-title {
+	font-size: 2.25rem;
+	line-height: 1.05;
+	font-weight: 800;
+	margin-bottom: 0.5rem;
+}
+
+.hero-name { color: #60a5fa; }
+
+.hero-tagline { color: #93c5fd; font-size: 1.25rem; margin-bottom: 1.5rem; font-weight: 300; min-height: 1.5rem; }
+
+.hero-desc { max-width: 800px; margin: 0.5rem auto 1rem; color: rgba(230,238,248,0.9); }
+
+.hero-cta { display: flex; justify-content: center; gap: 1rem; margin-top: 1.75rem; }
+
+.btn-primary {
+	display: inline-block;
+	background: #3b82f6;
+	color: #fff;
+	font-weight: 700;
+	padding: 0.75rem 2rem;
+	border-radius: 9999px;
+	text-decoration: none;
+}
+
+@media (min-width: 640px) {
+	.hero-title { font-size: 3.75rem; }
+	.hero-tagline { font-size: 1.5rem; }
+}

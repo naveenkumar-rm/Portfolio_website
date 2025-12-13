@@ -1,0 +1,43 @@
+.Skills_page {
+  background: transparent;
+  color: var(--text);
+  min-height: 100vh;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.Skills_page h2 {
+  font-size: 32px;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+.skills_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Skills_Icons {
+  border: 1px solid rgba(15,23,42,0.06);
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 360px;
+  width: 360px;
+  align-items: center;
+  background: var(--card);
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.Skills_Icons:hover {
+  box-shadow: 0 12px 30px rgba(15,23,42,0.06);
+  transform: translateY(-6px);
+}
+
+.slogo {height: 80px;width: 80px}
+
+.sname {margin-top: 8px;font-weight: 600}
+.box_title{font-size: 28px;margin-bottom: 16px}

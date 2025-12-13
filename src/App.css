@@ -1,0 +1,48 @@
+:root{
+	--bg: #f7fafc; /* light background */
+	--muted: #475569; /* muted dark */
+	--card: #ffffff;
+	--accent: #2563eb; /* blue-600 */
+	--text: #0f172a;
+}
+
+/* Dark theme overrides when the html element has class 'dark' */
+:root{
+	--bg: #071426;
+	--muted: #94a3b8;
+	--card: #0f172a;
+	--accent: #3b82f6;
+	--text: #e6eef8;
+}
+
+html,body,#root{height:100%;}
+
+body{
+	font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	background: linear-gradient(180deg,#071426 0%, #041229 60%);
+	color: var(--text);
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+.card-elevated{box-shadow: 0 10px 30px rgba(2,6,23,0.6);} 
+
+/* utility for subtle container in dark */
+.glass {
+	background: rgba(255,255,255,0.02);
+	backdrop-filter: blur(4px);
+	border: 1px solid rgba(255,255,255,0.03);
+}
+
+/* small responsive tweaks */
+@media (max-width:640px){
+	.min-h-screen{padding-top:24px}
+}
+
+/* ensure content sits below fixed navbar */
+main{padding-top:72px}
+
+/* small responsive tweaks */
+@media (max-width:640px){
+	.min-h-screen{padding-top:24px}
+}

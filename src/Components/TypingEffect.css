@@ -1,0 +1,5 @@
+.typing-effect { display:inline-block; color: #bcdfff; font-weight:600; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace; min-width:200px; }
+.typing-cursor { display:inline-block; width:4px; height:1em; background:#ffffff; margin-left:6px; vertical-align:bottom; opacity:0.9; }
+.typing-cursor.typing { animation: blink 1s steps(2,start) infinite; }
+
+@keyframes blink { 50% { opacity: 0; } }
