@@ -7,12 +7,15 @@ import Skills from './Components/Skills.jsx';
 import Experience from './Components/ExperienceSection.jsx';
 import Project from './Components/Project.jsx';
 import Contact from './Components/Contact.jsx';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const App = () => {
 
   return (
     <div>
+      <section id="NavBar">
+        <NavBar />
+      </section>
+
       <section id="home">
         <HeroSection />
       </section>
@@ -36,6 +39,7 @@ const App = () => {
       <section id="contact">
         <Contact />
       </section>
+
     </div>
   );
 };

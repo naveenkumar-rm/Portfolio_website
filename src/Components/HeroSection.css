@@ -3,10 +3,13 @@
 	position: relative;
 	background: linear-gradient(135deg,#071426 0%, #06203f 40%, #2b3a7a 100%);
 	color: #ffffff;
-	padding: 6rem 0 5rem;
+	padding: 0;
 	box-shadow: 0 10px 30px rgba(2,6,23,0.6);
 	overflow: hidden;
-    height: 100vh;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .hero-container {
@@ -46,4 +49,25 @@
 @media (min-width: 640px) {
 	.hero-title { font-size: 3.75rem; }
 	.hero-tagline { font-size: 1.5rem; }
+}
+
+.Home_SM {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 1300px;
+    gap: 20px;
+    border: 1px solid rgb(248, 245, 245);
+    border-radius: 50px;
+}
+
+.SM_logo{
+	width: 30px;
+	height: 30px;
+	color: white;
 }

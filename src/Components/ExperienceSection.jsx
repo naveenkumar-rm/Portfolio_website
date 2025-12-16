@@ -4,23 +4,27 @@ import './ExperienceSection.css';
 
 const experience = [
   {
-    title: "Java Full Stack Developer",
+    title: "Java Full Stack Developer Intern",
     company: "Glacier Technology, Coimbatore",
-    duration: "July 2025 – Nov 2025",
+    duration: "July 2025 - Dec 2025",
     color: "accent-blue",
     duties: [
-      "Built web applications using React and Spring Boot.",
-      "Designed and consumed RESTful APIs.",
+      "Contributed to the development of web applications using React, Java, Spring Boot, HTML, CSS, and JavaScript.",
+      "Designed and implemented RESTful APIs and integrated them with responsive front-end interfaces.",
+      "Assisted in database design and management using MySQL, ensuring data consistency and security.",
+      "Collaborated with senior developers using Git for version control, code reviews, and team coordination.",
+      "Debugged, tested, and optimized application performance to improve reliability and user experience."
     ],
   },
   {
     title: "Process Executive Data",
     company: "Cognizant Technology Solutions",
-    duration: "June 2020 – May 2023",
+    duration: "June 2024 – Feb 2025",
     color: "accent-indigo",
     duties: [
-      "Managed data workflows and reporting.",
-      "Ensured data quality and compliance.",
+      "Proficient in handling end-to-end claims workflows, including verification and documentation.",
+      "Demonstrates strong attention to detail, ensuring accuracy and compliance in claims processing.",
+      "Experience in generating reports and maintaining quality and performance benchmarks."
     ],
   },
 ];
@@ -36,9 +40,9 @@ const ExperienceSection = () => (
             <span className="job-badge">{job.duration}</span>
           </div>
           <p className="job-company">{job.company}</p>
-          <ul className="job-duties">
+          <ol className="job-duties">
             {job.duties.map((duty, dutyIndex) => (<li key={dutyIndex}>{duty}</li>))}
-          </ul>
+          </ol>
         </div>
       ))}
     </div>

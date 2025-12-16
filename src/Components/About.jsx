@@ -3,7 +3,7 @@ import "./About.css";
 import anime from '../Assets/Gemini_Generated_Image_bicrjfbicrjfbicr-Photoroom.png'
 const About = () => {
   return (
-    <div id='about' className='about'>
+    <div id='About' className='about'>
       <h1>About me</h1>
       <div className='about_content'>
         <div className='about_description'>

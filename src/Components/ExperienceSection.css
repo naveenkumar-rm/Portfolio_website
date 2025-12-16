@@ -13,7 +13,31 @@
 .job-title { font-size: 1.125rem; font-weight:700; color: #0b1220; }
 .job-badge { display:inline-block; font-size:0.875rem; font-weight:600; color:#fff; padding:0.25rem 0.5rem; border-radius:999px; background:#64748b; margin-left:auto; }
 .job-company { margin-bottom:0.75rem; color:#374151; font-weight:600; }
-.job-duties { margin-left:1rem; color:#4b5563; }
+.job-duties {
+	margin: 0.5rem 0 0 0;
+	padding-left: 2.25rem;
+	color: #4b5563;
+	list-style: none;
+	counter-reset: duty-counter;
+}
+
+.job-duties li {
+	position: relative;
+	margin: 0.5rem 0;
+	padding-left: 0.5rem;
+	counter-increment: duty-counter;
+}
+
+.job-duties li::before {
+	content: counter(duty-counter) ".";
+	position: absolute;
+	left: -2.25rem;
+	top: 0;
+	font-weight: 700;
+	color: rgba(11,18,32,0.8);
+	width: 1.5rem;
+	text-align: right;
+}
 
 /* Accent colors */
 .job-card.accent-blue { border-left-color: #2563eb; }
@@ -23,4 +47,22 @@
 
 @media (min-width: 640px) {
 	.job-head { flex-direction:row; align-items:center; }
+}
+
+/* Center the section title when used inside the experience section */
+.experience .section-title {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.experience .section-title .section-underline {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* Hide underline for Professional Experience title */
+.experience .section-title .section-underline {
+	display: none;
 }

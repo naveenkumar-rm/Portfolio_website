@@ -1,12 +1,19 @@
 .Nav_bar {
-    background-color: rgba(0, 0, 0, 0.85);
-    color: white !important;
-    border-radius: 0 0 12px 12px;
-    width: 100%;
+    background-color: #ffffff2e;
+    font-size: large;
+    border-radius: 100px;
+    width: 460px;
     height: 60px;
-    border-bottom: 1px solid rgba(66, 64, 64, 0.6);
-    margin: 0;
-    left: 0;
-    right: 0;
-    z-index: 1030;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav_bar .nav-link {
+    color: #ffffff !important;
+}
+
+.Nav_bar .nav-link:hover {
+    color: rgba(230,238,248,0.9) !important;
 }
