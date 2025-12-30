@@ -19,7 +19,7 @@ const HeroSection = () => {
         <p className="hero-tagline"><TypingEffect textArray={taglines} /></p>
         <p className="hero-desc">I am a dedicated Java Full Stack Developer with hands-on experience in Java, Spring Boot, and Object-Oriented Programming (OOP). Skilled in front-end development using HTML, CSS, JavaScript, and React.js. Experienced building RESTful APIs and scalable web applications.</p>
         <div className="hero-cta">
-          <a href="#Resume" className="btn-primary">Download Resume</a>
+          <a target='_blank' href="https://drive.google.com/file/d/1J6IYBGzEQ28aKYaQjTFgH5fMcXmQBi9N/view?usp=sharing" className="btn-primary">Download Resume</a>
         </div>
       </div>
       <div className='Home_SM'>

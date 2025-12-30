@@ -12,36 +12,39 @@ import mysql from "../Assets/MySQL.png";
 import git from "../Assets/Git.png";
 import AWS from "../Assets/AWS.png";
 import Postman from "../Assets/Postman.png";
+import Tailwind from "../Assets/Tailwind-CSS.png";
+import GitHub from "../Assets/GitHub.png";
+import Eclipse from "../Assets/Eclipse-IDE.png";
+import IntelliJ from "../Assets/IntelliJ-IDEA.png";
 
-const SkillCard = ({ icon, name }) => {
-  return (
-    <div className="skill-card">
+const SkillCard = ({ icon, name }) => (
+  <div className="skill-card">
+    <div className="skill-icon">
       <img src={icon} alt={name} />
-      <p>{name}</p>
     </div>
-  );
-};
+    <span>{name}</span>
+  </div>
+);
 
 const Skills = () => {
   return (
     <section className="skills-section" id="skills">
-      <h2 className="skills-title">MY SKILLS</h2>
-      <p className="skills-subtitle">Technologies I a work with</p>
+      <h2 className="skills-title">Skills & Tools</h2>
+      <p className="skills-subtitle">Technologies I work with</p>
 
-      <div className="skills-container">
-        {/* Frontend */}
+      <div className="skills-wrapper">
         <div className="skills-category">
           <h3>Frontend</h3>
           <div className="skills-grid">
             <SkillCard icon={html} name="HTML5" />
             <SkillCard icon={css} name="CSS3" />
+            <SkillCard icon={Tailwind} name="Tailwind CSS" />
             <SkillCard icon={bootstrap} name="Bootstrap" />
             <SkillCard icon={react} name="ReactJS" />
             <SkillCard icon={javascript} name="JavaScript" />
           </div>
         </div>
 
-        {/* Backend */}
         <div className="skills-category">
           <h3>Backend</h3>
           <div className="skills-grid">
@@ -51,13 +54,15 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Tools */}
         <div className="skills-category">
-          <h3>Tools</h3>
+          <h3>Tools & Platforms</h3>
           <div className="skills-grid">
             <SkillCard icon={git} name="Git" />
+            <SkillCard icon={GitHub} name="GitHub" />
             <SkillCard icon={AWS} name="AWS" />
             <SkillCard icon={Postman} name="Postman" />
+            <SkillCard icon={IntelliJ} name="IntelliJ IDEA" />
+            <SkillCard icon={Eclipse} name="Eclipse IDE" />
           </div>
         </div>
       </div>

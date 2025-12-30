@@ -11,6 +11,7 @@
 .projects-header {
   text-align: center;
   margin-bottom: 3rem;
+  
 }
 
 .projects-header h1 {
@@ -66,8 +67,9 @@
 }
 
 .project-card img {
+  padding: 10px;
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
 }
 

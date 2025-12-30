@@ -1,5 +1,7 @@
 import React from "react";
 import "./Project.css";
+import farm from "../Assets/Project/Assets/1761375570462.jpg";
+import poultry from "../Assets/Project/Assets/1761376332005.jpg";
 import { GitBranch } from "lucide-react";
 
 const projects = [
@@ -11,9 +13,8 @@ const projects = [
       "Implemented modules for vaccination tracking, inventory management, and record automation.",
       "Enabled real-time monitoring and reporting for better farm management decisions."
     ],
-    tools: ["HTML", "CSS", "PHP", "MySQL"],
-    imageUrl:
-      "https://placehold.co/800x450/334155/FFFFFF/png?text=Poultry+Management+System"
+    tools: ["React", "XML", "CSS", "React Bootstrap", "Java", "Springboot", "Mysql"],
+    imageUrl: farm
   },
   {
     name: "Farm Portfolio Website",
@@ -24,8 +25,7 @@ const projects = [
       "Designed a modern UI using Bootstrap and custom CSS for mobile-friendly layouts."
     ],
     tools: ["React", "HTML", "Bootstrap", "CSS"],
-    imageUrl:
-      "https://placehold.co/800x450/4f46e5/FFFFFF/png?text=Farm+Portfolio+Website"
+    imageUrl:poultry
   }
 ];
 
